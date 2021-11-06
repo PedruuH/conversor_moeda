@@ -7527,7 +7527,7 @@ a4T(){var s=0,r=A.a5(t.f),q,p,o
 var $async$a4T=A.a1(function(a,b){if(a===1)return A.a2(b,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.ab(A.aqz(A.v1("https://api.hgbrasil.com/finance/quotations?format=json&key=a91b936b"),A.aC(["Access-Control-Allow-Origin","*"],p,p)),$async$a4T)
+return A.ab(A.aqz(A.v1("https://api.hgbrasil.com/finance/quotations?format=json&key=a91b936b"),A.aC(["Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST,GET,DELETE,PUT,OPTIONS","Accept","*/*"],p,p)),$async$a4T)
 case 3:o=b
 q=B.aB.cV(0,A.aqn(A.aoP(o.e).c.a.h(0,"charset")).cV(0,o.x))
 s=1
